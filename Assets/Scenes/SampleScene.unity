@@ -1954,7 +1954,7 @@ GameObject:
   - component: {fileID: 1984732781}
   - component: {fileID: 1984732782}
   m_Layer: 5
-  m_Name: MessageMachineSample
+  m_Name: MessageMachineSamplePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

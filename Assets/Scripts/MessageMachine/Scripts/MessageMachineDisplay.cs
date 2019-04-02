@@ -4,6 +4,10 @@ using UnityEngine.UI;
 
 public class MessageMachineDisplay : MonoBehaviour
 {
+    //if want to change counter time,change this
+    private const int counterTime = 2;
+
+
     public GameObject MessagePanel;
     public GameObject MessageObject;
     public Text MessageText;
@@ -11,7 +15,7 @@ public class MessageMachineDisplay : MonoBehaviour
     public Button CancelButton;
     public MessageMachine.MessageMachineManager MessageMachineManager;
 
-    private const int counterTime = 2;
+
     private Vector3 cancelButtonPosition;
     private Vector3 confirmButtonPosition;
     private Vector3 centerButtonPosition;
@@ -27,8 +31,6 @@ public class MessageMachineDisplay : MonoBehaviour
         confirmButtonPosition = ConfirmButton.transform.localPosition;
         centerButtonPosition = new Vector2(0, confirmButtonPosition.y);
     }
-
-
 
     #region Public
 

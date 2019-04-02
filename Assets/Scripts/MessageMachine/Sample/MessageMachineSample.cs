@@ -2,7 +2,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-
 //using MessageMachine
 using MessageMachine;
 
@@ -26,14 +25,12 @@ public class MessageMachineSample : MonoBehaviour
     {
         MessageData data = makeMessageData(1);
         MessageMachineManager.ReceiveMessageData(data);
-
     }
 
     public void SendSingleType2()
     {
         MessageData data = makeMessageData(2);
         MessageMachineManager.ReceiveMessageData(data);
-
     }
 
     public void Send3Type0()
@@ -90,6 +87,5 @@ public class MessageMachineSample : MonoBehaviour
         }
 
         return data;
-
-    }
+     }
 }
